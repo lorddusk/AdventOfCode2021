@@ -26,17 +26,11 @@ namespace Day01_SonarSweep
         public void SimpleScan_Exercise_Success()
         {
             // Arrange
-            var input = Read.Input("day01");
-            int[] intInputs = new int[input.Length];
-            int i = 0;
-            foreach (var line in input)
-            {
-                intInputs[i] = int.Parse(input[i]);
-                i++;
-            }
+            string[] stringInput = Read.Input("day01");
+            int[] input = Read.StringToIntArray(stringInput);
 
             // Act
-            int actualOutput = Program.SimpleScan(intInputs);
+            int actualOutput = Program.SimpleScan(input);
 
             // Assert
             int expectedOutput = 1266;
@@ -44,7 +38,7 @@ namespace Day01_SonarSweep
         }
 
         [TestMethod]
-        public void AdvancedScan_Example_Succes()
+        public void AdvancedScan_Example_Success()
         {
             // Arrange
             int[] input = new int[] {199, 200, 208, 210, 200, 207, 240, 269, 260, 263};
@@ -58,20 +52,14 @@ namespace Day01_SonarSweep
         }
 
         [TestMethod]
-        public void AdvancedScan_Exercise_Succes()
+        public void AdvancedScan_Exercise_Success()
         {
             // Arrange
-            var input = Read.Input("day01");
-            int[] intInputs = new int[input.Length];
-            int i = 0;
-            foreach (var line in input)
-            {
-                intInputs[i] = int.Parse(input[i]);
-                i++;
-            }
+            string[] stringInput = Read.Input("day01");
+            int[] input = Read.StringToIntArray(stringInput);
 
             // Act
-            int actualOutput = Program.AdvancedScan(intInputs);
+            int actualOutput = Program.AdvancedScan(input);
 
             // Assert
             int expectedOutput = 1217;

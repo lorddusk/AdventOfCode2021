@@ -7,16 +7,13 @@ namespace Day01_SonarSweep
     {
         public static void Main(string[] args)
         {
-            string[] strArray = Read.Input("day01");
-            int[] input = new int[strArray.Length];
-            int index = 0;
-            foreach (string str in strArray)
-            {
-                input[index] = int.Parse(strArray[index]);
-                ++index;
-            }
-            Console.WriteLine(string.Format("Part One: {0} measurements are larger than their previous measurement", (object) Program.SimpleScan(input)));
-            Console.WriteLine(string.Format("Part Two: {0} measurements are larger than their previous measurement", (object) Program.AdvancedScan(input)));
+            string[] stringInput = Read.Input("day01");
+            int[] input = Read.StringToIntArray(stringInput);
+
+            int output = SimpleScan(input);
+            Console.WriteLine($"Part One: {output} measurements are larger than their previous measurement.");
+            output = AdvancedScan(input);
+            Console.WriteLine($"Part Two: {output} measurements are larger than their previous measurement.");
         }
 
         public static int SimpleScan(int[] input)
