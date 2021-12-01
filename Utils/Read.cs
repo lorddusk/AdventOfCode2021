@@ -1,10 +1,10 @@
 ﻿using System.IO;
 
-namespace Day01_SonarSweep
+namespace Utils
 {
-    public class Utils
+    public class Read
     {
-        public static string[] ReadInput(string day)
+        public static string[] Input(string day)
         {
             return File.ReadAllLines($@"F:\.NET\AOC2021\AdventOfCode\Inputs\{day}.txt");
         }

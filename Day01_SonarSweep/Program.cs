@@ -1,4 +1,5 @@
 ﻿using System;
+using Utils;
 
 namespace Day01_SonarSweep
 {
@@ -6,7 +7,7 @@ namespace Day01_SonarSweep
     {
         public static void Main(string[] args)
         {
-            string[] strArray = Utils.ReadInput("day01");
+            string[] strArray = Read.Input("day01");
             int[] input = new int[strArray.Length];
             int index = 0;
             foreach (string str in strArray)
