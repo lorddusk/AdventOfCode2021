@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Utils;
+using StringUtilities;
 
 namespace Day02_Dive
 {
@@ -30,7 +30,7 @@ namespace Day02_Dive
         public void SimpleMove_Exercise_Success()
         {
             // Arrange
-            string[] stringInput = Read.Input("day02");
+            string[] stringInput = Utils.Input("day02");
             
             // Act
             (int horizontal, int depth) = Program.SimpleMove(stringInput);
@@ -63,7 +63,7 @@ namespace Day02_Dive
         public void AdvancedScan_Exercise_Success()
         {
             // Arrange
-            string[] stringInput = Read.Input("day02");
+            string[] stringInput = Utils.Input("day02");
             
             // Act
             (int horizontal, int depth) = Program.AdvancedMove(stringInput);

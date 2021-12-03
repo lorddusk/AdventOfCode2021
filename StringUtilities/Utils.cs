@@ -1,8 +1,9 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
-namespace Utils
+namespace StringUtilities
 {
-    public class Read
+    public class Utils
     {
         public static string[] Input(string day)
         {
@@ -20,6 +21,11 @@ namespace Utils
             }
 
             return output;
+        }
+
+        public static int BinaryToDecimal(string binary)
+        {
+            return Convert.ToInt32(binary, 2);
         }
     }
 }

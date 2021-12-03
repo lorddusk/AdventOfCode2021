@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\StringUtilities\StringUtilities.csproj" />
+        <ProjectReference Include="..\StringUtilities\StringUtilities.csproj" />
     </ItemGroup>
 
 </Project>

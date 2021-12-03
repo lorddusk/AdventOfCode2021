@@ -1,5 +1,5 @@
 ﻿using System;
-using Utils;
+using StringUtilities;
 
 namespace Day02_Dive
 {
@@ -7,7 +7,7 @@ namespace Day02_Dive
     {
         public static void Main(string[] args)
         {
-            string[] stringInput = Read.Input("day02");
+            string[] stringInput = Utils.Input("day02");
 
             (int horizontal, int depth) = SimpleMove(stringInput);
             Console.WriteLine($"Part One: {horizontal * depth} horizontal * depth.");

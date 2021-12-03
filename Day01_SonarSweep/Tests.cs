@@ -1,7 +1,6 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualBasic.CompilerServices;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Utils;
+using StringUtilities;
 
 namespace Day01_SonarSweep
 {
@@ -26,8 +25,8 @@ namespace Day01_SonarSweep
         public void SimpleScan_Exercise_Success()
         {
             // Arrange
-            string[] stringInput = Read.Input("day01");
-            int[] input = Read.StringToIntArray(stringInput);
+            string[] stringInput = Utils.Input("day01");
+            int[] input = Utils.StringToIntArray(stringInput);
 
             // Act
             int actualOutput = Program.SimpleScan(input);
@@ -55,8 +54,8 @@ namespace Day01_SonarSweep
         public void AdvancedScan_Exercise_Success()
         {
             // Arrange
-            string[] stringInput = Read.Input("day01");
-            int[] input = Read.StringToIntArray(stringInput);
+            string[] stringInput = Utils.Input("day01");
+            int[] input = Utils.StringToIntArray(stringInput);
 
             // Act
             int actualOutput = Program.AdvancedScan(input);

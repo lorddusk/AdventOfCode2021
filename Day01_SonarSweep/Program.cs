@@ -1,5 +1,5 @@
 ﻿using System;
-using Utils;
+using StringUtilities;
 
 namespace Day01_SonarSweep
 {
@@ -7,8 +7,8 @@ namespace Day01_SonarSweep
     {
         public static void Main(string[] args)
         {
-            string[] stringInput = Read.Input("day01");
-            int[] input = Read.StringToIntArray(stringInput);
+            string[] stringInput = Utils.Input("day01");
+            int[] input = Utils.StringToIntArray(stringInput);
 
             int output = SimpleScan(input);
             Console.WriteLine($"Part One: {output} measurements are larger than their previous measurement.");
