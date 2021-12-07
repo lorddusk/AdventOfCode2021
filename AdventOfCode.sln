@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_BinaryDiagnostic", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_GiantSquid", "Day04_GiantSquid\Day04_GiantSquid.csproj", "{CD7F9C57-4541-406E-AD13-59A1C745A594}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_Lanternfish", "Day06_Lanternfish\Day06_Lanternfish.csproj", "{42E12E85-7F08-46C6-A36E-7EE8A7B8A09B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_HydrothermalVenture", "Day05_HydrothermalVenture\Day05_HydrothermalVenture.csproj", "{ACF5F020-9454-4BE8-B963-40C4BD01C8B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{CD7F9C57-4541-406E-AD13-59A1C745A594}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD7F9C57-4541-406E-AD13-59A1C745A594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD7F9C57-4541-406E-AD13-59A1C745A594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E12E85-7F08-46C6-A36E-7EE8A7B8A09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E12E85-7F08-46C6-A36E-7EE8A7B8A09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E12E85-7F08-46C6-A36E-7EE8A7B8A09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E12E85-7F08-46C6-A36E-7EE8A7B8A09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF5F020-9454-4BE8-B963-40C4BD01C8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF5F020-9454-4BE8-B963-40C4BD01C8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF5F020-9454-4BE8-B963-40C4BD01C8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF5F020-9454-4BE8-B963-40C4BD01C8B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
